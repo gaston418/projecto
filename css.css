@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+ 
+    
+}
+
+
+#comienzo{
+    background-color: grey;
+}
+#control{
+    position: fixed;
+    top : 1px;
+    left : 1px;
+
+}
+
+#cabeza{
+    background-color: rgb(41, 29, 148);
+}
+#titulo{
+    font-size: 70px;
+    top: 0%;
+    margin-left: 40%;
+    font-family: 'Carter One', cursive;
+    color: rgb(238, 243, 211);
+    
+}
+.titulo_dato h3{
+    font-family: 'Carter One', cursive;
+    color: antiquewhite;
+    width: 160px;
+    border: solid 2px rgb(229, 229, 235);
+
+}
+.titulo_dato h2{
+    color: antiquewhite;
+    margin-top: 25px;
+    border-bottom: solid 1px rgb(236, 220, 220);
+    width: 150px;
+}
+.titulo_dato ul{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    list-style-type: circle;
+    border: solid 1px rgb(210, 235, 216);
+    margin-left: 300px;
+    width: 386px;
+}
+.titulo_dato ul li {
+    font-size: x-large;
+    color: azure;
+    max-width: 700px;
+    margin: auto;
+    
+    
+}
+
+#datos{
+   
+    background-image: url(imagenes/cables.jpg);
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
+    background-attachment: fixed;
+}
+#contenedor_perfil{
+    display: flex;
+}
+#contenedor_ubicacion{
+    display: flex;
+}
+#contenedor_ubicacion p{
+    color: aliceblue;
+    margin-left: 400px;
+    margin-right: 400px;
+    
+}
+#imagen_perfil{
+    margin-left: 400px;
+    border-radius: 100%;
+    border: solid 3px white;
+}
+#desplazamiento{
+    display: none;
+}
+#boton{
+  padding:  0px;
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+}
+#hacia_arriba{
+   
+    position: fixed;
+    bottom: 0;
+    right: 30%;
+   }
+
+
+
+
